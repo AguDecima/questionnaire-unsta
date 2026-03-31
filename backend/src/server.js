@@ -38,7 +38,6 @@ app.use(
     maxAge: 86400,
   }),
 )
-app.options('*', cors())
 app.use(express.json())
 
 app.use('/api', (req, res, next) => {
