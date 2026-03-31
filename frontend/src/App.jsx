@@ -42,17 +42,6 @@ const ANNEX_MODAL_CONTENT = {
   },
 }
 
-const shuffleArray = (list) => {
-  const clonedList = [...list]
-
-  for (let i = clonedList.length - 1; i > 0; i -= 1) {
-    const randomIndex = Math.floor(Math.random() * (i + 1))
-    ;[clonedList[i], clonedList[randomIndex]] = [clonedList[randomIndex], clonedList[i]]
-  }
-
-  return clonedList
-}
-
 function App() {
   const [flowStep, setFlowStep] = useState(FLOW.LANDING)
   const [introData, setIntroData] = useState(null)
@@ -207,9 +196,7 @@ function App() {
 
     try {
       const backendQuestions = await fetchQuestions()
-      const randomizedQuestions = shuffleArray(backendQuestions)
-
-      setQuestions(randomizedQuestions)
+      setQuestions([...backendQuestions])
       setAnswers([])
       setCurrentIndex(0)
       setSelectedOption('')
