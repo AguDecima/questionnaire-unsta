@@ -1,4 +1,5 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:4000'
+const rawBase = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:4000'
+const API_BASE_URL = String(rawBase).replace(/\/+$/, '')
 const API_CLIENT_KEY = import.meta.env.VITE_API_CLIENT_KEY ?? ''
 
 const request = async (path, options = {}) => {
@@ -6,7 +7,8 @@ const request = async (path, options = {}) => {
     throw new Error('Falta configurar VITE_API_CLIENT_KEY en el frontend')
   }
 
-  const response = await fetch(`${API_BASE_URL}${path}`, {
+  const pathPart = path.startsWith('/') ? path : `/${path}`
+  const response = await fetch(`${API_BASE_URL}${pathPart}`, {
     headers: {
       'Content-Type': 'application/json',
       'x-api-client-key': API_CLIENT_KEY,

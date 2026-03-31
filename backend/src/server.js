@@ -29,7 +29,16 @@ const app = express()
 const port = Number(process.env.PORT ?? 4000)
 const expectedApiClientKey = process.env.API_CLIENT_KEY ?? ''
 
-app.use(cors())
+app.use(
+  cors({
+    origin: '*',
+    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'x-api-client-key'],
+    exposedHeaders: ['Content-Type'],
+    maxAge: 86400,
+  }),
+)
+app.options('*', cors())
 app.use(express.json())
 
 app.use('/api', (req, res, next) => {
