@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "build:gnkq": "python3 scripts/build_gnkq_questions.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Backend API para cuestionario UNSTA",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "googleapis": "^171.4.0"
+  }
+}
