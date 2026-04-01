@@ -98,13 +98,22 @@ const { sections: GNKQ_SECTIONS, questions: QUESTION_BANK } = loadGnkqData()
 const toPublicQuestion = (question) => {
   const sectionTitle =
     GNKQ_SECTIONS.find((s) => String(s.id) === String(question.section))?.title ?? ''
-  return {
+  const base = {
     id: question.id,
     section: question.section,
     sectionTitle,
     text: question.text,
     options: question.options.map((option) => ({ id: option.id, text: option.text })),
   }
+  if (Array.isArray(question.illustrations) && question.illustrations.length > 0) {
+    base.illustrations = question.illustrations.map((fig) => ({
+      id: fig.id,
+      caption: fig.caption ?? '',
+      src: fig.src,
+      alt: fig.alt ?? '',
+    }))
+  }
+  return base
 }
 
 const evaluateAnswers = (payload) => {

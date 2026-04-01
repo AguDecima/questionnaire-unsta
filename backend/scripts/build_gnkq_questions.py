@@ -392,6 +392,26 @@ def build_questions(docx_path: Path) -> list[dict]:
             "formas corporales incrementa el riesgo de enfermedad cardiovascular? (Marque una)",
             "note": "En el DOCX la tabla de esta pregunta no contiene el texto de las opciones. "
             "Revisar el documento original y actualizar este JSON si hace falta.",
+            "illustrations": [
+                {
+                    "id": "androide",
+                    "caption": "Figura A: distribución de grasa más abdominal o central (forma androide).",
+                    "src": "/question-media/gnkq-obesidad-androide.png",
+                    "alt": (
+                        "Ilustración de silueta con acumulación de grasa en abdomen y tronco "
+                        "(obesidad androide, forma de manzana)."
+                    ),
+                },
+                {
+                    "id": "genoide",
+                    "caption": "Figura B: mayor acumulación periférica en caderas y muslos (forma genoide o de pera).",
+                    "src": "/question-media/gnkq-obesidad-genoide.png",
+                    "alt": (
+                        "Ilustración de silueta con acumulación de grasa en caderas y muslos "
+                        "(obesidad genoide, forma de pera)."
+                    ),
+                },
+            ],
             "options": [
                 {"id": "opt0", "text": "Mayor grasa abdominal o distribución central (androide)"},
                 {"id": "opt1", "text": "Mayor acumulación periférica (p. ej., caderas y muslos)"},

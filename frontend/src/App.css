@@ -276,6 +276,37 @@ button:disabled {
   line-height: 1.35;
 }
 
+.question-illustrations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 0 0 18px;
+}
+
+.question-illustration {
+  margin: 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+
+.question-illustration img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.question-illustration-caption {
+  margin: 0;
+  padding: 10px 12px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #475569;
+  background: #fff;
+  border-top: 1px solid #e2e8f0;
+}
+
 .question-title {
   font-size: 20px;
   font-weight: 600;

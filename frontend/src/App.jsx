@@ -434,26 +434,20 @@ function App() {
             <div style={{ width: `${progress}%` }} />
           </div>
 
-          {sectionId ? (
-            <div
-              className="question-section-meta"
-              role="region"
-              aria-label={
-                currentSectionTitle
-                  ? `Sección ${sectionId}: ${currentSectionTitle}`
-                  : `Sección ${sectionId}`
-              }
-            >
-              <div className="question-section-meta-row">
-                <span className="question-section-badge">Sección {sectionId}</span>
-                {currentSectionTitle ? (
-                  <span className="question-section-title-text">{currentSectionTitle}</span>
-                ) : null}
-              </div>
+          <p className="question-title">{currentQuestion.text}</p>
+
+          {Array.isArray(currentQuestion.illustrations) && currentQuestion.illustrations.length > 0 ? (
+            <div className="question-illustrations">
+              {currentQuestion.illustrations.map((figure) => (
+                <figure key={figure.id ?? figure.src} className="question-illustration">
+                  <img src={figure.src} alt={figure.alt || ''} loading="lazy" decoding="async" />
+                  {figure.caption ? (
+                    <figcaption className="question-illustration-caption">{figure.caption}</figcaption>
+                  ) : null}
+                </figure>
+              ))}
             </div>
           ) : null}
-
-          <p className="question-title">{currentQuestion.text}</p>
 
           <div className="options">
             {currentQuestion.options.map((option) => (
