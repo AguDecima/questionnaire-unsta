@@ -1,5 +1,10 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { fetchIntroPage, fetchQuestions, submitQuestionnaire } from './api/client'
+import {
+  checkDniParticipation,
+  fetchIntroPage,
+  fetchQuestions,
+  submitQuestionnaire,
+} from './api/client'
 import './App.css'
 
 const FLOW = {
@@ -70,6 +75,7 @@ function App() {
   })
   const [openAnnexModal, setOpenAnnexModal] = useState(null)
   const [sections, setSections] = useState([])
+  const [checkingDni, setCheckingDni] = useState(false)
 
   const currentQuestion = questions[currentIndex]
   const answeredCount = answers.length
@@ -137,6 +143,12 @@ function App() {
         const backendResult = await submitQuestionnaire(payload)
         setResult(backendResult)
         setFlowStep(FLOW.RESULT)
+      } catch (error) {
+        window.alert(
+          error instanceof Error
+            ? error.message
+            : 'No se pudo enviar el cuestionario. Intenta de nuevo.',
+        )
       } finally {
         setLoading(false)
       }
@@ -192,7 +204,7 @@ function App() {
     }
   }, [flowStep])
 
-  const goToProcedureStep = () => {
+  const goToProcedureStep = async () => {
     if (
       !participantData.dni ||
       !participantData.fullName ||
@@ -206,7 +218,25 @@ function App() {
       return
     }
 
-    setFlowStep(FLOW.PROCEDURE)
+    setCheckingDni(true)
+    try {
+      const dniCheck = await checkDniParticipation(participantData.dni)
+      if (dniCheck.alreadyParticipated) {
+        window.alert(
+          'Este DNI ya figura como participante en el estudio. No es posible iniciar el cuestionario nuevamente.',
+        )
+        return
+      }
+      setFlowStep(FLOW.PROCEDURE)
+    } catch (error) {
+      window.alert(
+        error instanceof Error
+          ? error.message
+          : 'No se pudo verificar el DNI. Revisa tu conexion o intenta mas tarde.',
+      )
+    } finally {
+      setCheckingDni(false)
+    }
   }
 
   const loadQuestionsAndStart = async () => {
@@ -405,8 +435,8 @@ function App() {
             Tiempo por pregunta definido por el estudio: <strong>{timeLimit} segundos</strong>
           </div>
 
-          <button type="button" onClick={goToProcedureStep}>
-            Iniciar cuestionario
+          <button type="button" onClick={goToProcedureStep} disabled={checkingDni}>
+            {checkingDni ? 'Verificando DNI...' : 'Iniciar cuestionario'}
           </button>
           <p className="thank-you">Muchas gracias por tu participacion</p>
         </section>

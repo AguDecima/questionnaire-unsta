@@ -95,6 +95,89 @@ const INTRO_DATA = {
 
 const { sections: GNKQ_SECTIONS, questions: QUESTION_BANK } = loadGnkqData()
 
+const normalizeDni = (value) =>
+  String(value ?? '')
+    .replace(/\./g, '')
+    .replace(/\s/g, '')
+    .trim()
+    .toLowerCase()
+
+const getSheetsApi = () => {
+  const spreadsheetId = process.env.GSHEET_ID
+  if (!spreadsheetId) {
+    return null
+  }
+
+  let auth
+
+  const credPath = process.env.GOOGLE_APPLICATION_CREDENTIALS
+  if (credPath && fs.existsSync(credPath)) {
+    auth = new google.auth.GoogleAuth({
+      keyFile: path.resolve(credPath),
+      scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+    })
+  } else if (process.env.GOOGLE_CREDENTIALS_JSON) {
+    let parsed
+    try {
+      parsed = JSON.parse(process.env.GOOGLE_CREDENTIALS_JSON)
+    } catch {
+      return null
+    }
+    auth = new google.auth.GoogleAuth({
+      credentials: parsed,
+      scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+    })
+  } else {
+    const clientEmail = process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL
+    const privateKey = process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, '\n')
+    if (!clientEmail || !privateKey) {
+      return null
+    }
+    auth = new google.auth.GoogleAuth({
+      credentials: {
+        client_email: clientEmail,
+        private_key: privateKey,
+      },
+      scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+    })
+  }
+
+  return {
+    spreadsheetId,
+    sheets: google.sheets({ version: 'v4', auth }),
+  }
+}
+
+const fetchRegisteredDniSet = async (sheetsApi) => {
+  const tab = process.env.GSHEET_TAB ?? 'Respuestas'
+  const range =
+    process.env.GSHEET_DNI_READ_RANGE ?? `${tab}!A2:A5000`
+  const response = await sheetsApi.sheets.spreadsheets.values.get({
+    spreadsheetId: sheetsApi.spreadsheetId,
+    range,
+  })
+
+  const rows = response.data.values ?? []
+  const set = new Set()
+  for (const row of rows) {
+    const raw = row[0]
+    if (raw == null || String(raw).trim() === '') {
+      continue
+    }
+    set.add(normalizeDni(raw))
+  }
+  return set
+}
+
+const buildPerQuestionOutcomeCells = (payload) =>
+  QUESTION_BANK.map((question) => {
+    const answer = payload.answers.find((item) => item.questionId === question.id)
+    if (!answer || !answer.optionId) {
+      return 'Sin respuesta'
+    }
+    return answer.optionId === question.correctOptionId ? 'Correcto' : 'Incorrecto'
+  })
+
 const toPublicQuestion = (question) => {
   const sectionTitle =
     GNKQ_SECTIONS.find((s) => String(s.id) === String(question.section))?.title ?? ''
@@ -155,52 +238,45 @@ const evaluateAnswers = (payload) => {
   }
 }
 
-const getSheetsClient = () => {
-  const spreadsheetId = process.env.GSHEET_ID
-  const clientEmail = process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL
-  const privateKey = process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, '\n')
-
-  if (!spreadsheetId || !clientEmail || !privateKey) {
-    return null
-  }
-
-  const auth = new google.auth.GoogleAuth({
-    credentials: {
-      client_email: clientEmail,
-      private_key: privateKey,
-    },
-    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
-  })
-
-  return {
-    spreadsheetId,
-    sheets: google.sheets({ version: 'v4', auth }),
-  }
-}
-
 const appendSubmissionToSheet = async (payload, result) => {
-  const sheetsClient = getSheetsClient()
-  if (!sheetsClient) return { written: false, reason: 'missing_env' }
+  const sheetsApi = getSheetsApi()
+  if (!sheetsApi) {
+    return { written: false, reason: 'missing_env' }
+  }
 
+  const totalElapsedMs = (payload.answers ?? []).reduce(
+    (accumulator, answer) => accumulator + (Number(answer.responseTimeMs) || 0),
+    0,
+  )
+  const totalSeconds = Math.round(totalElapsedMs / 1000)
+  const tabSwitchCount = payload.meta?.totalTabSwitchCount ?? 0
+  const participant = payload.meta?.participantData ?? {}
+
+  const resultadoFinal = `${result.score}/${result.maxScore} (${result.percentage}%)`
+  const fechaEnvio = new Date().toISOString()
+
+  // Orden alineado a plantilla: DNI…Contacto | Puntaje | Nro salidas | Tiempo total | Fecha | Pregunta 1…75
   const row = [
-    new Date().toISOString(),
-    payload.meta?.participantData?.dni ?? '',
-    payload.meta?.participantData?.fullName ?? '',
-    payload.meta?.participantData?.age ?? '',
-    payload.meta?.participantData?.career ?? '',
-    payload.meta?.participantData?.yearOrCondition ?? '',
-    payload.meta?.participantData?.contact ?? '',
-    payload.meta?.timeLimitSeconds ?? '',
-    payload.meta?.totalTabSwitchCount ?? 0,
-    result.verdict,
-    result.score,
-    result.maxScore,
-    JSON.stringify(payload.answers ?? []),
+    participant.dni ?? '',
+    participant.fullName ?? '',
+    participant.age ?? '',
+    participant.career ?? '',
+    participant.yearOrCondition ?? '',
+    participant.contact ?? '',
+    resultadoFinal,
+    tabSwitchCount,
+    totalSeconds,
+    fechaEnvio,
+    ...buildPerQuestionOutcomeCells(payload),
   ]
 
-  await sheetsClient.sheets.spreadsheets.values.append({
-    spreadsheetId: sheetsClient.spreadsheetId,
-    range: process.env.GSHEET_RANGE ?? 'Respuestas!A:M',
+  const appendRange =
+    process.env.GSHEET_APPEND_RANGE ??
+    `${process.env.GSHEET_TAB ?? 'Respuestas'}!A:ZZ`
+
+  await sheetsApi.sheets.spreadsheets.values.append({
+    spreadsheetId: sheetsApi.spreadsheetId,
+    range: appendRange,
     valueInputOption: 'RAW',
     requestBody: {
       values: [row],
@@ -221,6 +297,34 @@ app.get('/api/questions', (_req, res) => {
   })
 })
 
+app.post('/api/check-dni', async (req, res) => {
+  const dni = req.body?.dni
+  if (dni == null || String(dni).trim() === '') {
+    res.status(400).json({ message: 'DNI requerido' })
+    return
+  }
+
+  const sheetsApi = getSheetsApi()
+  if (!sheetsApi) {
+    res.json({ alreadyParticipated: false, checkEnabled: false })
+    return
+  }
+
+  try {
+    const registered = await fetchRegisteredDniSet(sheetsApi)
+    const normalized = normalizeDni(dni)
+    res.json({
+      alreadyParticipated: registered.has(normalized),
+      checkEnabled: true,
+    })
+  } catch (error) {
+    res.status(503).json({
+      message: 'No se pudo verificar el DNI. Intenta de nuevo en unos minutos.',
+      detail: error instanceof Error ? error.message : 'unknown',
+    })
+  }
+})
+
 app.post('/api/submit', async (req, res) => {
   const payload = req.body
 
@@ -229,7 +333,18 @@ app.post('/api/submit', async (req, res) => {
     return
   }
 
+  const sheetsApi = getSheetsApi()
+  const dniKey = normalizeDni(payload.meta?.participantData?.dni)
+
   try {
+    if (sheetsApi && dniKey) {
+      const registered = await fetchRegisteredDniSet(sheetsApi)
+      if (registered.has(dniKey)) {
+        res.status(409).json({ message: 'Este DNI ya registro una participacion en el estudio.' })
+        return
+      }
+    }
+
     const result = evaluateAnswers(payload)
     const gsheet = await appendSubmissionToSheet(payload, result)
 

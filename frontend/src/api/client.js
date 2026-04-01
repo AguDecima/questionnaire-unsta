@@ -34,3 +34,9 @@ export const submitQuestionnaire = (payload) =>
     method: 'POST',
     body: JSON.stringify(payload),
   })
+
+export const checkDniParticipation = (dni) =>
+  request('/api/check-dni', {
+    method: 'POST',
+    body: JSON.stringify({ dni }),
+  })
