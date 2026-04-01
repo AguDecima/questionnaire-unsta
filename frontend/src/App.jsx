@@ -276,7 +276,7 @@ function App() {
 
   return (
     <main className="app-shell">
-      {flowStep !== FLOW.LANDING && (
+      {(flowStep === FLOW.QUESTIONS || flowStep === FLOW.RESULT) && (
         <header className="app-header">
           <h1>Evaluacion de conocimientos y riesgo cardiometabolico</h1>
         </header>
