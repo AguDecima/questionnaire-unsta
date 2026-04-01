@@ -1816,18 +1816,14 @@
       "options": [
         {
           "id": "opt0",
-          "text": "Mayor grasa abdominal o distribución central (androide)"
+          "text": "Obesidad androide"
         },
         {
           "id": "opt1",
-          "text": "Mayor acumulación periférica (p. ej., caderas y muslos)"
+          "text": "Obesidad genoide"
         },
         {
           "id": "opt2",
-          "text": "Ambas presentan el mismo riesgo cardiovascular"
-        },
-        {
-          "id": "opt3",
           "text": "No estoy seguro/a"
         }
       ],
