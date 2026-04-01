@@ -4,9 +4,13 @@ import './App.css'
 
 const FLOW = {
   LANDING: 'landing',
+  PROCEDURE: 'procedure',
   QUESTIONS: 'questions',
   RESULT: 'result',
 }
+
+const GNKQ_PROCEDURE_TEXT =
+  'El siguiente cuestionario consiste en una adaptación del General Nutrition Knowledge Questionnaire (GNKQ) bajo los lineamientos de las Guías Alimentarias para la Población Argentina (GAPA). El fin del mismo es conocer su nivel de conocimiento nutricional; por lo tanto, en las opciones que tenga dudas, es preferible que tilde en "no estoy seguro". Los datos que proporcione serán totalmente anónimos y se usarán sólo con fines académicos. Desde ya, agradecemos su colaboración y tiempo.'
 
 const DEFAULT_TIME_LIMIT_SECONDS = 20
 const ANNEX_MODAL_CONTENT = {
@@ -65,6 +69,7 @@ function App() {
     acceptedTerms: false,
   })
   const [openAnnexModal, setOpenAnnexModal] = useState(null)
+  const [sections, setSections] = useState([])
 
   const currentQuestion = questions[currentIndex]
   const answeredCount = answers.length
@@ -73,6 +78,15 @@ function App() {
     if (!questions.length) return 0
     return Math.round(((answeredCount + 1) / questions.length) * 100)
   }, [answeredCount, questions.length])
+
+  const sectionId = currentQuestion?.section != null ? String(currentQuestion.section) : ''
+  const currentSectionTitle = useMemo(() => {
+    if (!sectionId) return ''
+    const fromQuestion = currentQuestion?.sectionTitle?.trim()
+    if (fromQuestion) return fromQuestion
+    const found = sections.find((s) => String(s.id) === sectionId)
+    return found?.title ?? ''
+  }, [sectionId, sections, currentQuestion?.sectionTitle])
 
   useEffect(() => {
     const loadLanding = async () => {
@@ -178,7 +192,7 @@ function App() {
     }
   }, [flowStep])
 
-  const startQuestionFlow = async () => {
+  const goToProcedureStep = () => {
     if (
       !participantData.dni ||
       !participantData.fullName ||
@@ -192,11 +206,18 @@ function App() {
       return
     }
 
+    setFlowStep(FLOW.PROCEDURE)
+  }
+
+  const loadQuestionsAndStart = async () => {
     setLoading(true)
 
     try {
-      const backendQuestions = await fetchQuestions()
-      setQuestions([...backendQuestions])
+      const payload = await fetchQuestions()
+      const list = Array.isArray(payload) ? payload : payload?.questions
+      const sectionList = Array.isArray(payload?.sections) ? payload.sections : []
+      setSections(sectionList)
+      setQuestions([...(list ?? [])])
       setAnswers([])
       setCurrentIndex(0)
       setSelectedOption('')
@@ -212,6 +233,7 @@ function App() {
 
   const restart = () => {
     setFlowStep(FLOW.LANDING)
+    setSections([])
     setQuestions([])
     setCurrentIndex(0)
     setSelectedOption('')
@@ -230,15 +252,21 @@ function App() {
         </header>
       )}
 
+      {flowStep === FLOW.PROCEDURE && (
+        <section className="card procedure-step">
+          <h2 className="procedure-title">Información del cuestionario</h2>
+          <p className="procedure-text">{GNKQ_PROCEDURE_TEXT}</p>
+          <button type="button" onClick={loadQuestionsAndStart} disabled={loading}>
+            {loading ? 'Cargando preguntas...' : 'Comenzar cuestionario'}
+          </button>
+        </section>
+      )}
+
       {flowStep === FLOW.LANDING && introData && (
         <section className="card first-page">
           <article className="hero-cover">
             <div className="hero-overlay">
               <h1>{introData.title}</h1>
-              <p>
-                Participa en nuestro estudio academico para ayudar a evaluar el nivel de
-                conocimiento y estado nutricional en estudiantes universitarios.
-              </p>
             </div>
           </article>
 
@@ -262,6 +290,7 @@ function App() {
                 DNI
                 <input
                   type="text"
+                  placeholder="Ej.: 47.777.777"
                   value={participantData.dni}
                   onChange={(event) =>
                     setParticipantData((previous) => ({ ...previous, dni: event.target.value }))
@@ -272,6 +301,7 @@ function App() {
                 Nombre y Apellido
                 <input
                   type="text"
+                  placeholder="Ej.: José Lopez"
                   value={participantData.fullName}
                   onChange={(event) =>
                     setParticipantData((previous) => ({
@@ -286,6 +316,7 @@ function App() {
                 <input
                   type="number"
                   min="0"
+                  placeholder="Ej.: 23"
                   value={participantData.age}
                   onChange={(event) =>
                     setParticipantData((previous) => ({ ...previous, age: event.target.value }))
@@ -296,6 +327,7 @@ function App() {
                 Carrera
                 <input
                   type="text"
+                  placeholder="Ej.: Lic. en Nutrición"
                   value={participantData.career}
                   onChange={(event) =>
                     setParticipantData((previous) => ({
@@ -309,6 +341,7 @@ function App() {
                 Año de cursado o condición
                 <input
                   type="text"
+                  placeholder="Ej.: 4to / Tesista"
                   value={participantData.yearOrCondition}
                   onChange={(event) =>
                     setParticipantData((previous) => ({
@@ -322,6 +355,7 @@ function App() {
                 Medio de contacto
                 <input
                   type="text"
+                  placeholder="Ej.: 381 333-4444 / contacto@ejemplo.com"
                   value={participantData.contact}
                   onChange={(event) =>
                     setParticipantData((previous) => ({
@@ -371,8 +405,8 @@ function App() {
             Tiempo por pregunta definido por el estudio: <strong>{timeLimit} segundos</strong>
           </div>
 
-          <button onClick={startQuestionFlow} disabled={loading}>
-            {loading ? 'Cargando preguntas...' : 'Iniciar cuestionario'}
+          <button type="button" onClick={goToProcedureStep}>
+            Iniciar cuestionario
           </button>
           <p className="thank-you">Muchas gracias por tu participacion</p>
         </section>
@@ -383,6 +417,13 @@ function App() {
           <div className="question-header">
             <h2>
               Pregunta {currentIndex + 1} de {questions.length}
+              {sectionId ? (
+                <span className="question-header-section">
+                  {' '}
+                  · Sección {sectionId}
+                  {currentSectionTitle ? `: ${currentSectionTitle}` : ''}
+                </span>
+              ) : null}
             </h2>
             <span className={remainingTime <= 5 ? 'timer is-danger' : 'timer'}>
               {remainingTime}s
@@ -392,6 +433,25 @@ function App() {
           <div className="progress-line">
             <div style={{ width: `${progress}%` }} />
           </div>
+
+          {sectionId ? (
+            <div
+              className="question-section-meta"
+              role="region"
+              aria-label={
+                currentSectionTitle
+                  ? `Sección ${sectionId}: ${currentSectionTitle}`
+                  : `Sección ${sectionId}`
+              }
+            >
+              <div className="question-section-meta-row">
+                <span className="question-section-badge">Sección {sectionId}</span>
+                {currentSectionTitle ? (
+                  <span className="question-section-title-text">{currentSectionTitle}</span>
+                ) : null}
+              </div>
+            </div>
+          ) : null}
 
           <p className="question-title">{currentQuestion.text}</p>
 
@@ -425,17 +485,57 @@ function App() {
       )}
 
       {flowStep === FLOW.RESULT && result && (
-        <section className="card">
-          <h2>Resultado final</h2>
-          <p className="result">
-            Veredicto: <strong>{result.verdict}</strong>
+        <section className="card result-screen">
+          <p className="result-screen-kicker">Cuestionario finalizado</p>
+          <h2 className="result-screen-title">Gracias por tu participación</h2>
+          <p className="result-screen-lead">
+            Tus respuestas fueron registradas de forma anónima y contribuyen al estudio académico sobre
+            conocimientos en nutrición y factores relacionados con la salud.
           </p>
-          <p>
-            Puntaje estimado: {result.score}/{result.maxScore}
+
+          <div className="result-score-card" aria-live="polite">
+            <p className="result-score-label">Tu puntaje en el cuestionario</p>
+            <p className="result-score-value">
+              <strong>{result.score}</strong>
+              <span className="result-score-max"> de {result.maxScore} puntos</span>
+            </p>
+            <div
+              className="result-score-bar"
+              role="progressbar"
+              aria-valuenow={result.score}
+              aria-valuemin={0}
+              aria-valuemax={result.maxScore}
+            >
+              <div
+                className="result-score-bar-fill"
+                style={{
+                  width: `${result.maxScore ? Math.min(100, (result.score / result.maxScore) * 100) : 0}%`,
+                }}
+              />
+            </div>
+            <p className="result-score-percent">
+              Equivale aproximadamente al <strong>{result.percentage ?? Math.round((result.score / result.maxScore) * 100)}%</strong> del puntaje máximo.
+            </p>
+          </div>
+
+          <article className="result-interpretation">
+            <h3 className="result-interpretation-heading">Qué significa tu resultado</h3>
+            <p className="result-interpretation-text">{result.message}</p>
+          </article>
+
+          <p className="result-screen-closing">
+            El puntaje máximo del instrumento es de <strong>{result.maxScore}</strong> puntos (una por cada ítem
+            respondido). Tu tiempo fue importante para esta investigación: ¡muchas gracias de nuevo!
           </p>
-          <p>Total de salidas de pestania: {tabSwitchCount}</p>
-          <p>{result.message}</p>
-          <button onClick={restart}>Volver al inicio</button>
+
+          <p className="result-meta">
+            Registro para el estudio: cambios de pestaña durante el cuestionario —{' '}
+            <strong>{tabSwitchCount}</strong>
+          </p>
+
+          <button type="button" onClick={restart}>
+            Volver al inicio
+          </button>
         </section>
       )}
 

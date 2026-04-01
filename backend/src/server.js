@@ -11,18 +11,34 @@ dotenv.config()
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const questionsPath = path.join(__dirname, '../data/gnkq-questions.json')
 
-const loadQuestionBank = () => {
+const validateQuestion = (q, index) => {
+  if (!q?.id || !q?.text || !Array.isArray(q?.options) || !q?.correctOptionId) {
+    throw new Error(`Pregunta invalida en indice ${index}`)
+  }
+}
+
+/**
+ * Carga `gnkq-questions.json`: formato `{ sections, questions }` (única fuente de datos).
+ * Compatibilidad: si el archivo es solo un array (legacy), se asume `sections: []`.
+ */
+const loadGnkqData = () => {
   const raw = fs.readFileSync(questionsPath, 'utf8')
   const data = JSON.parse(raw)
-  if (!Array.isArray(data)) {
-    throw new Error('gnkq-questions.json debe ser un array')
-  }
-  data.forEach((q, index) => {
-    if (!q?.id || !q?.text || !Array.isArray(q?.options) || !q?.correctOptionId) {
-      throw new Error(`Pregunta invalida en indice ${index}`)
+
+  if (data?.sections && Array.isArray(data?.questions)) {
+    data.questions.forEach(validateQuestion)
+    return {
+      sections: data.sections,
+      questions: data.questions,
     }
-  })
-  return data
+  }
+
+  if (Array.isArray(data)) {
+    data.forEach(validateQuestion)
+    return { sections: [], questions: data }
+  }
+
+  throw new Error('gnkq-questions.json debe tener forma { sections, questions } o ser un array de preguntas')
 }
 
 const app = express()
@@ -73,18 +89,23 @@ const INTRO_DATA = {
   thesisDisclaimer:
     'Esta investigacion forma parte de un trabajo de tesis para la obtencion del titulo de grado de Licenciado en Nutricion en la Universidad del Norte Santo Tomas de Aquino. Se asegura el anonimato de todos los datos proporcionados, siendo estos utilizados solo con fines academicos.',
   consentText: 'Aceptacion de terminos y condiciones (Anexo I y II).',
-  defaultTimeLimitSeconds: 20,
+  defaultTimeLimitSeconds: 30,
   links: [{ label: 'Ver anexo I y II', url: 'https://docs.google.com/' }],
 }
 
-const QUESTION_BANK = loadQuestionBank()
+const { sections: GNKQ_SECTIONS, questions: QUESTION_BANK } = loadGnkqData()
 
-const toPublicQuestion = (question) => ({
-  id: question.id,
-  section: question.section,
-  text: question.text,
-  options: question.options.map((option) => ({ id: option.id, text: option.text })),
-})
+const toPublicQuestion = (question) => {
+  const sectionTitle =
+    GNKQ_SECTIONS.find((s) => String(s.id) === String(question.section))?.title ?? ''
+  return {
+    id: question.id,
+    section: question.section,
+    sectionTitle,
+    text: question.text,
+    options: question.options.map((option) => ({ id: option.id, text: option.text })),
+  }
+}
 
 const evaluateAnswers = (payload) => {
   const score = payload.answers.reduce((accumulator, answer) => {
@@ -97,14 +118,31 @@ const evaluateAnswers = (payload) => {
   const qualityPenalty = payload.meta?.totalTabSwitchCount >= 3 ? 1 : 0
   const finalScore = Math.max(score - qualityPenalty, 0)
   const passed = finalScore >= Math.ceil(maxScore * 0.6)
+  const percentage = maxScore > 0 ? Math.round((finalScore / maxScore) * 100) : 0
+
+  const penaltyNote =
+    qualityPenalty > 0
+      ? ' Se aplicó un ajuste menor al puntaje por cambios frecuentes de pestaña, según los criterios del estudio.'
+      : ''
+
+  let message
+  if (percentage >= 60) {
+    message =
+      `Tu resultado se ubica por encima del umbral de referencia del cuestionario, lo que sugiere una buena familiaridad con los temas de nutrición y salud evaluados.${penaltyNote}`
+  } else if (percentage >= 40) {
+    message =
+      `Tu resultado se ubica en un rango intermedio. Los valores son orientativos y el estudio los utilizará de forma agregada y anónima, sin constituir una calificación personal.${penaltyNote}`
+  } else {
+    message =
+      `Tu resultado se ubica por debajo del umbral de referencia del instrumento. Los datos aportan al objetivo científico del trabajo; no implican un diagnóstico ni una evaluación clínica.${penaltyNote}`
+  }
 
   return {
     verdict: passed ? 'Apto' : 'Requiere refuerzo',
     score: finalScore,
     maxScore,
-    message: passed
-      ? 'Buen rendimiento general. Resultado listo para enviar a GSheet.'
-      : 'Se recomienda revisar contenidos basicos antes de una nueva evaluacion.',
+    percentage,
+    message,
   }
 }
 
@@ -168,7 +206,10 @@ app.get('/api/intro', (_req, res) => {
 })
 
 app.get('/api/questions', (_req, res) => {
-  res.json(QUESTION_BANK.map(toPublicQuestion))
+  res.json({
+    sections: GNKQ_SECTIONS,
+    questions: QUESTION_BANK.map(toPublicQuestion),
+  })
 })
 
 app.post('/api/submit', async (req, res) => {

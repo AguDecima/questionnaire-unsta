@@ -18,6 +18,13 @@ NS = {"w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"}
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "gnkq-questions.json"
 
+# Mismos encabezados de sección que el documento GNKQ (no son ítems del cuestionario).
+GNKQ_SECTIONS = [
+    {"id": "1", "title": "¿Qué consejos cree usted que están dando los expertos?"},
+    {"id": "2", "title": "Identificación de grupos de alimentos y sus nutrientes"},
+    {"id": "3", "title": "Alimentación, enfermedades y control del peso"},
+]
+
 
 def cell_text(tc: ET.Element) -> str:
     texts: list[str] = []
@@ -410,8 +417,9 @@ def main() -> None:
 
     built = build_questions(docx)
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(built, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"OK: {OUT} ({len(built)} items)")
+    payload = {"sections": GNKQ_SECTIONS, "questions": built}
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"OK: {OUT} ({len(built)} preguntas, {len(GNKQ_SECTIONS)} secciones)")
 
 
 if __name__ == "__main__":

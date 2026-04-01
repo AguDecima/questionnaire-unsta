@@ -1,1807 +1,1823 @@
-[
-  {
-    "id": "gnkq-s1-t0-r0",
-    "section": "1",
-    "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
-    "itemLabel": "Frutas",
-    "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Frutas",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Más"
-      },
-      {
-        "id": "opt1",
-        "text": "Igual"
-      },
-      {
-        "id": "opt2",
-        "text": "Menos"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s1-t0-r1",
-    "section": "1",
-    "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
-    "itemLabel": "Alimentos y bebidas con azúcar agregada",
-    "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Alimentos y bebidas con azúcar agregada",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Más"
-      },
-      {
-        "id": "opt1",
-        "text": "Igual"
-      },
-      {
-        "id": "opt2",
-        "text": "Menos"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt2"
-  },
-  {
-    "id": "gnkq-s1-t0-r2",
-    "section": "1",
-    "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
-    "itemLabel": "Verduras",
-    "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Verduras",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Más"
-      },
-      {
-        "id": "opt1",
-        "text": "Igual"
-      },
-      {
-        "id": "opt2",
-        "text": "Menos"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s1-t0-r3",
-    "section": "1",
-    "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
-    "itemLabel": "Alimentos grasos",
-    "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Alimentos grasos",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Más"
-      },
-      {
-        "id": "opt1",
-        "text": "Igual"
-      },
-      {
-        "id": "opt2",
-        "text": "Menos"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt2"
-  },
-  {
-    "id": "gnkq-s1-t0-r4",
-    "section": "1",
-    "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
-    "itemLabel": "Carnes rojas procesadas",
-    "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Carnes rojas procesadas",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Más"
-      },
-      {
-        "id": "opt1",
-        "text": "Igual"
-      },
-      {
-        "id": "opt2",
-        "text": "Menos"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt2"
-  },
-  {
-    "id": "gnkq-s1-t0-r5",
-    "section": "1",
-    "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
-    "itemLabel": "Cereales integrales",
-    "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Cereales integrales",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Más"
-      },
-      {
-        "id": "opt1",
-        "text": "Igual"
-      },
-      {
-        "id": "opt2",
-        "text": "Menos"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s1-t0-r6",
-    "section": "1",
-    "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
-    "itemLabel": "Alimentos salados",
-    "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Alimentos salados",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Más"
-      },
-      {
-        "id": "opt1",
-        "text": "Igual"
-      },
-      {
-        "id": "opt2",
-        "text": "Menos"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt2"
-  },
-  {
-    "id": "gnkq-s1-t0-r7",
-    "section": "1",
-    "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
-    "itemLabel": "Agua",
-    "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Agua",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Más"
-      },
-      {
-        "id": "opt1",
-        "text": "Igual"
-      },
-      {
-        "id": "opt2",
-        "text": "Menos"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s1-porciones-fruta-verdura",
-    "section": "1",
-    "stem": "¿Cuántas porciones de frutas y verduras por día aconsejan consumir las GAPA? (Marque una).",
-    "text": "¿Cuántas porciones de frutas y verduras por día aconsejan consumir las GAPA? (Marque una).",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "2"
-      },
-      {
-        "id": "opt1",
-        "text": "3"
-      },
-      {
-        "id": "opt2",
-        "text": "4"
-      },
-      {
-        "id": "opt3",
-        "text": "5 o más"
-      },
-      {
-        "id": "opt4",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt3"
-  },
-  {
-    "id": "gnkq-s1-t2-r0",
-    "section": "1",
-    "stem": "¿Cuáles de estos tipos de grasas recomiendan las GAPA que se consuman menos? (Marque una casilla por cada opción)",
-    "itemLabel": "Grasas insaturadas",
-    "text": "¿Cuáles de estos tipos de grasas recomiendan las GAPA que se consuman menos? (Marque una casilla por cada opción) — Grasas insaturadas",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "No comer menos"
-      },
-      {
-        "id": "opt1",
-        "text": "Comer menos"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s1-t2-r1",
-    "section": "1",
-    "stem": "¿Cuáles de estos tipos de grasas recomiendan las GAPA que se consuman menos? (Marque una casilla por cada opción)",
-    "itemLabel": "Grasas saturadas",
-    "text": "¿Cuáles de estos tipos de grasas recomiendan las GAPA que se consuman menos? (Marque una casilla por cada opción) — Grasas saturadas",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "No comer menos"
-      },
-      {
-        "id": "opt1",
-        "text": "Comer menos"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s1-t2-r2",
-    "section": "1",
-    "stem": "¿Cuáles de estos tipos de grasas recomiendan las GAPA que se consuman menos? (Marque una casilla por cada opción)",
-    "itemLabel": "Grasas trans",
-    "text": "¿Cuáles de estos tipos de grasas recomiendan las GAPA que se consuman menos? (Marque una casilla por cada opción) — Grasas trans",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "No comer menos"
-      },
-      {
-        "id": "opt1",
-        "text": "Comer menos"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s1-lacteos",
-    "section": "1",
-    "stem": "¿Qué recomiendan las GAPA con respecto al consumo de lácteos? (Marque una)",
-    "text": "¿Qué recomiendan las GAPA con respecto al consumo de lácteos? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Incluir 3 porciones al día de leche, yogurt o queso (preferentemente descremados)"
-      },
-      {
-        "id": "opt1",
-        "text": "Preferir los lácteos enteros antes que los descremados"
-      },
-      {
-        "id": "opt2",
-        "text": "Preferir los quesos duros por su mayor aporte de calcio"
-      },
-      {
-        "id": "opt3",
-        "text": "Utilizarlos únicamente durante la infancia"
-      },
-      {
-        "id": "opt4",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s1-pescado",
-    "section": "1",
-    "stem": "¿Cuántas veces por semana se recomienda consumir pescados grasos (por ejemplo: atún, caballa, etc.) según las GAPA? (Marque una)",
-    "text": "¿Cuántas veces por semana se recomienda consumir pescados grasos (por ejemplo: atún, caballa, etc.) según las GAPA? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "2 o más veces por semana"
-      },
-      {
-        "id": "opt1",
-        "text": "3 – 4 veces por semana"
-      },
-      {
-        "id": "opt2",
-        "text": "Todos los días"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s1-alcohol",
-    "section": "1",
-    "stem": "¿Cuál es la cantidad máxima recomendada para el consumo de bebidas alcohólicas por día según las GAPA? (Marque una)",
-    "text": "¿Cuál es la cantidad máxima recomendada para el consumo de bebidas alcohólicas por día según las GAPA? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "1 medida tanto para hombres como para mujeres"
-      },
-      {
-        "id": "opt1",
-        "text": "2 medidas tanto para hombres como para mujeres"
-      },
-      {
-        "id": "opt2",
-        "text": "2 medidas para hombres y 1 medida para mujeres"
-      },
-      {
-        "id": "opt3",
-        "text": "3 medidas para hombres y 2 medidas para mujeres"
-      },
-      {
-        "id": "opt4",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt2"
-  },
-  {
-    "id": "gnkq-s1-patrones",
-    "section": "1",
-    "stem": "¿Qué recomiendan las GAPA en cuanto a patrones alimentarios? (Marque una)",
-    "text": "¿Qué recomiendan las GAPA en cuanto a patrones alimentarios? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Realizar ayuno intermitente en patrón 16/8"
-      },
-      {
-        "id": "opt1",
-        "text": "Realizar 4 comidas con una selección de alimentos moderada y armónica"
-      },
-      {
-        "id": "opt2",
-        "text": "Realizar la cantidad de comidas y selección de alimentos que desee, siempre que procure cumplir con su cuota calórica"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s1-jugo-fruta",
-    "section": "1",
-    "stem": "Según las GAPA es válido reemplazar las porciones recomendadas de fruta por el jugo de estas mismas. (Marque una)",
-    "text": "Según las GAPA es válido reemplazar las porciones recomendadas de fruta por el jugo de estas mismas. (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "De acuerdo"
-      },
-      {
-        "id": "opt1",
-        "text": "En desacuerdo"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s1-grafica-legumbres",
-    "section": "1",
-    "stem": "Según la Gráfica de la Alimentación Diaria de las GAPA, ¿Qué proporción o cantidad diaria se recomienda consumir del grupo de legumbres, cereales, papa, pan y pastas? (Marque una)",
-    "text": "Según la Gráfica de la Alimentación Diaria de las GAPA, ¿Qué proporción o cantidad diaria se recomienda consumir del grupo de legumbres, cereales, papa, pan y pastas? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "4 porciones al día"
-      },
-      {
-        "id": "opt1",
-        "text": "4 porciones a la semana"
-      },
-      {
-        "id": "opt2",
-        "text": "Una cantidad mínima y opcional"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t9-r0",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento)",
-    "itemLabel": "Gaseosas dietéticas",
-    "text": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento) — Gaseosas dietéticas",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto en azúcar agregado"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo en azúcar agregado"
-      },
-      {
-        "id": "opt2",
-        "text": "Sin azúcar agregado"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt2"
-  },
-  {
-    "id": "gnkq-s2-t9-r1",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento)",
-    "itemLabel": "Gaseosas comunes",
-    "text": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento) — Gaseosas comunes",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto en azúcar agregado"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo en azúcar agregado"
-      },
-      {
-        "id": "opt2",
-        "text": "Sin azúcar agregado"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t9-r2",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento)",
-    "itemLabel": "Ketchup tradicional",
-    "text": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento) — Ketchup tradicional",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto en azúcar agregado"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo en azúcar agregado"
-      },
-      {
-        "id": "opt2",
-        "text": "Sin azúcar agregado"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t9-r3",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento)",
-    "itemLabel": "Leche entera",
-    "text": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento) — Leche entera",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto en azúcar agregado"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo en azúcar agregado"
-      },
-      {
-        "id": "opt2",
-        "text": "Sin azúcar agregado"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt2"
-  },
-  {
-    "id": "gnkq-s2-t9-r4",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento)",
-    "itemLabel": "Leche chocolatada",
-    "text": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento) — Leche chocolatada",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto en azúcar agregado"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo en azúcar agregado"
-      },
-      {
-        "id": "opt2",
-        "text": "Sin azúcar agregado"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t10-r0",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento)",
-    "itemLabel": "Copos de cereal",
-    "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento) — Copos de cereal",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto en sodio"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo en sodio"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t10-r1",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento)",
-    "itemLabel": "Vegetales congelados",
-    "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento) — Vegetales congelados",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto en sodio"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo en sodio"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s2-t10-r2",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento)",
-    "itemLabel": "Pan francés",
-    "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento) — Pan francés",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto en sodio"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo en sodio"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t10-r3",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento)",
-    "itemLabel": "Porotos enlatados",
-    "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento) — Porotos enlatados",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto en sodio"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo en sodio"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t10-r4",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento)",
-    "itemLabel": "Carne roja",
-    "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento) — Carne roja",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto en sodio"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo en sodio"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s2-t10-r5",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento)",
-    "itemLabel": "Sopa en sobre",
-    "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento) — Sopa en sobre",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto en sodio"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo en sodio"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t11-r0",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento)",
-    "itemLabel": "Legumbres",
-    "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento) — Legumbres",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto contenido de fibra"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo contenido de fibra"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t11-r1",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento)",
-    "itemLabel": "Manzana",
-    "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento) — Manzana",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto contenido de fibra"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo contenido de fibra"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t11-r2",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento)",
-    "itemLabel": "Arroz blanco",
-    "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento) — Arroz blanco",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto contenido de fibra"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo contenido de fibra"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s2-t11-r3",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento)",
-    "itemLabel": "Carne de vaca",
-    "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento) — Carne de vaca",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto contenido de fibra"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo contenido de fibra"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s2-t11-r4",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento)",
-    "itemLabel": "Papas con cáscara",
-    "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento) — Papas con cáscara",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto contenido de fibra"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo contenido de fibra"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t11-r5",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento)",
-    "itemLabel": "Pan francés",
-    "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento) — Pan francés",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Alto contenido de fibra"
-      },
-      {
-        "id": "opt1",
-        "text": "Bajo contenido de fibra"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s2-t12-r0",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento)",
-    "itemLabel": "Carnes de origen animal (vaca, pollo, pescado, etc.)",
-    "text": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento) — Carnes de origen animal (vaca, pollo, pescado, etc.)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Buena fuente de proteína"
-      },
-      {
-        "id": "opt1",
-        "text": "No es buena fuente de proteína"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t12-r1",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento)",
-    "itemLabel": "Quesos",
-    "text": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento) — Quesos",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Buena fuente de proteína"
-      },
-      {
-        "id": "opt1",
-        "text": "No es buena fuente de proteína"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t12-r2",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento)",
-    "itemLabel": "Frutas",
-    "text": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento) — Frutas",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Buena fuente de proteína"
-      },
-      {
-        "id": "opt1",
-        "text": "No es buena fuente de proteína"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s2-t12-r3",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento)",
-    "itemLabel": "Legumbres",
-    "text": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento) — Legumbres",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Buena fuente de proteína"
-      },
-      {
-        "id": "opt1",
-        "text": "No es buena fuente de proteína"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t12-r4",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento)",
-    "itemLabel": "Manteca",
-    "text": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento) — Manteca",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Buena fuente de proteína"
-      },
-      {
-        "id": "opt1",
-        "text": "No es buena fuente de proteína"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s2-t12-r5",
-    "section": "2",
-    "stem": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento)",
-    "itemLabel": "Hortalizas",
-    "text": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento) — Hortalizas",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Buena fuente de proteína"
-      },
-      {
-        "id": "opt1",
-        "text": "No es buena fuente de proteína"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s2-t13-r0",
-    "section": "2",
-    "stem": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento)",
-    "itemLabel": "Quesos",
-    "text": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento) — Quesos",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Contiene almidón"
-      },
-      {
-        "id": "opt1",
-        "text": "No contiene almidón"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s2-t13-r1",
-    "section": "2",
-    "stem": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento)",
-    "itemLabel": "Pastas",
-    "text": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento) — Pastas",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Contiene almidón"
-      },
-      {
-        "id": "opt1",
-        "text": "No contiene almidón"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t13-r2",
-    "section": "2",
-    "stem": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento)",
-    "itemLabel": "Papas",
-    "text": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento) — Papas",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Contiene almidón"
-      },
-      {
-        "id": "opt1",
-        "text": "No contiene almidón"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t13-r3",
-    "section": "2",
-    "stem": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento)",
-    "itemLabel": "Nueces",
-    "text": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento) — Nueces",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Contiene almidón"
-      },
-      {
-        "id": "opt1",
-        "text": "No contiene almidón"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s2-t13-r4",
-    "section": "2",
-    "stem": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento)",
-    "itemLabel": "Bananas",
-    "text": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento) — Bananas",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Contiene almidón"
-      },
-      {
-        "id": "opt1",
-        "text": "No contiene almidón"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s2-t14-r0",
-    "section": "2",
-    "stem": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento)",
-    "itemLabel": "Aceite de oliva",
-    "text": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento) — Aceite de oliva",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Grasas poli-insaturadas"
-      },
-      {
-        "id": "opt1",
-        "text": "Grasas mono-insaturadas"
-      },
-      {
-        "id": "opt2",
-        "text": "Grasas saturadas"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s2-t14-r1",
-    "section": "2",
-    "stem": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento)",
-    "itemLabel": "Manteca",
-    "text": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento) — Manteca",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Grasas poli-insaturadas"
-      },
-      {
-        "id": "opt1",
-        "text": "Grasas mono-insaturadas"
-      },
-      {
-        "id": "opt2",
-        "text": "Grasas saturadas"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro"
-      }
-    ],
-    "correctOptionId": "opt2"
-  },
-  {
-    "id": "gnkq-s2-t14-r2",
-    "section": "2",
-    "stem": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento)",
-    "itemLabel": "Aceite de girasol",
-    "text": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento) — Aceite de girasol",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Grasas poli-insaturadas"
-      },
-      {
-        "id": "opt1",
-        "text": "Grasas mono-insaturadas"
-      },
-      {
-        "id": "opt2",
-        "text": "Grasas saturadas"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-t14-r3",
-    "section": "2",
-    "stem": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento)",
-    "itemLabel": "Palta",
-    "text": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento) — Palta",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Grasas poli-insaturadas"
-      },
-      {
-        "id": "opt1",
-        "text": "Grasas mono-insaturadas"
-      },
-      {
-        "id": "opt2",
-        "text": "Grasas saturadas"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s2-grasas-trans",
-    "section": "2",
-    "stem": "¿Cuál de estos alimentos posee grasas trans? (Marque una)",
-    "text": "¿Cuál de estos alimentos posee grasas trans? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Margarina"
-      },
-      {
-        "id": "opt1",
-        "text": "Manteca"
-      },
-      {
-        "id": "opt2",
-        "text": "Aceite de girasol"
-      },
-      {
-        "id": "opt3",
-        "text": "Huevos"
-      },
-      {
-        "id": "opt4",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-calcio-leche",
-    "section": "2",
-    "stem": "La cantidad de calcio en un vaso de leche entera comparado con un vaso de leche descremada es (marque una):",
-    "text": "La cantidad de calcio en un vaso de leche entera comparado con un vaso de leche descremada es (marque una):",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Aproximadamente el mismo"
-      },
-      {
-        "id": "opt1",
-        "text": "Mucho mayor"
-      },
-      {
-        "id": "opt2",
-        "text": "Mucho menor"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s2-calorias-nutriente",
-    "section": "2",
-    "stem": "¿Cuál de los siguientes nutrientes tiene más calorías por el mismo peso de alimento? (Marque una)",
-    "text": "¿Cuál de los siguientes nutrientes tiene más calorías por el mismo peso de alimento? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Azúcares"
-      },
-      {
-        "id": "opt1",
-        "text": "Proteínas"
-      },
-      {
-        "id": "opt2",
-        "text": "Grasas"
-      },
-      {
-        "id": "opt3",
-        "text": "Fibra"
-      },
-      {
-        "id": "opt4",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt2"
-  },
-  {
-    "id": "gnkq-s2-ultraprocesados",
-    "section": "2",
-    "stem": "En comparación con los alimentos mínimamente procesados, los alimentos ultraprocesados son (marque una):",
-    "text": "En comparación con los alimentos mínimamente procesados, los alimentos ultraprocesados son (marque una):",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Más altos en fibra"
-      },
-      {
-        "id": "opt1",
-        "text": "Más altos en calorías"
-      },
-      {
-        "id": "opt2",
-        "text": "Más bajos en sodio"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s3-fibra-enfermedad",
-    "section": "3",
-    "stem": "¿Cuál de estas enfermedades está relacionada con una baja ingesta de fibra? (Marque una)",
-    "text": "¿Cuál de estas enfermedades está relacionada con una baja ingesta de fibra? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Anemia"
-      },
-      {
-        "id": "opt1",
-        "text": "Caries dentales"
-      },
-      {
-        "id": "opt2",
-        "text": "Trastornos intestinales"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt2"
-  },
-  {
-    "id": "gnkq-s3-azucar-enfermedad",
-    "section": "3",
-    "stem": "¿Cuál de estas enfermedades está relacionada con cuánto azúcar consume la gente? (Marque una)",
-    "text": "¿Cuál de estas enfermedades está relacionada con cuánto azúcar consume la gente? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Anemia"
-      },
-      {
-        "id": "opt1",
-        "text": "Caries dentales"
-      },
-      {
-        "id": "opt2",
-        "text": "Hipertensión Arterial"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s3-sodio-enfermedad",
-    "section": "3",
-    "stem": "¿Cuál de estas enfermedades está relacionada con cuánto sodio o sal consume la gente? (Marque una)",
-    "text": "¿Cuál de estas enfermedades está relacionada con cuánto sodio o sal consume la gente? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Diabetes 2"
-      },
-      {
-        "id": "opt1",
-        "text": "Hipertensión Arterial"
-      },
-      {
-        "id": "opt2",
-        "text": "Hipotiroidismo"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s3-gapa-cancer",
-    "section": "3",
-    "stem": "¿Qué recomiendan las GAPA para reducir el riesgo de cáncer? (Marque una)",
-    "text": "¿Qué recomiendan las GAPA para reducir el riesgo de cáncer? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Beber alcohol regularmente"
-      },
-      {
-        "id": "opt1",
-        "text": "Comer menos carne roja"
-      },
-      {
-        "id": "opt2",
-        "text": "Evitar aditivos en los alimentos"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s3-gapa-cardiovascular",
-    "section": "3",
-    "stem": "¿Qué recomiendan las GAPA para prevenir enfermedades cardiovasculares? (Marque una)",
-    "text": "¿Qué recomiendan las GAPA para prevenir enfermedades cardiovasculares? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Comer menos huevos"
-      },
-      {
-        "id": "opt1",
-        "text": "Evitar las grasas trans"
-      },
-      {
-        "id": "opt2",
-        "text": "Tomar suplementos"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s3-gapa-diabetes",
-    "section": "3",
-    "stem": "¿Qué recomiendan las GAPA para prevenir la Diabetes 2? (Marque una)",
-    "text": "¿Qué recomiendan las GAPA para prevenir la Diabetes 2? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Beber más jugo de frutas"
-      },
-      {
-        "id": "opt1",
-        "text": "Comer más carne roja"
-      },
-      {
-        "id": "opt2",
-        "text": "Comer menos alimentos ultra-procesados"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt2"
-  },
-  {
-    "id": "gnkq-s3-colesterol",
-    "section": "3",
-    "stem": "¿Cuál de estos alimentos es más probable que eleve el colesterol sanguíneo? (Marque una)",
-    "text": "¿Cuál de estos alimentos es más probable que eleve el colesterol sanguíneo? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Aceites vegetales"
-      },
-      {
-        "id": "opt1",
-        "text": "Grasa animal"
-      },
-      {
-        "id": "opt2",
-        "text": "Huevos"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s3-glucemia",
-    "section": "3",
-    "stem": "¿Cuál de estos alimentos tiende a elevar más rápidamente la glucemia después de comer? (Marque una)",
-    "text": "¿Cuál de estos alimentos tiende a elevar más rápidamente la glucemia después de comer? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Cereales integrales"
-      },
-      {
-        "id": "opt1",
-        "text": "Frutas"
-      },
-      {
-        "id": "opt2",
-        "text": "Pan blanco"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt2"
-  },
-  {
-    "id": "gnkq-s3-peso-sin-grasas",
-    "section": "3",
-    "stem": "Para mantener un peso saludable la gente debería eliminar completamente las grasas de su dieta. (Marque una)",
-    "text": "Para mantener un peso saludable la gente debería eliminar completamente las grasas de su dieta. (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "De acuerdo"
-      },
-      {
-        "id": "opt1",
-        "text": "En desacuerdo"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s3-peso-proteinas",
-    "section": "3",
-    "stem": "Para mantener un peso saludable la gente debería comer una dieta alta en proteínas. (Marque una)",
-    "text": "Para mantener un peso saludable la gente debería comer una dieta alta en proteínas. (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "De acuerdo"
-      },
-      {
-        "id": "opt1",
-        "text": "En desacuerdo"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s3-pan-peso",
-    "section": "3",
-    "stem": "Comer pan siempre causa aumento de peso. (Marque una)",
-    "text": "Comer pan siempre causa aumento de peso. (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "De acuerdo"
-      },
-      {
-        "id": "opt1",
-        "text": "En desacuerdo"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s3-fibra-peso",
-    "section": "3",
-    "stem": "La fibra puede disminuir las probabilidades de aumentar de peso. (Marque una)",
-    "text": "La fibra puede disminuir las probabilidades de aumentar de peso. (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "De acuerdo"
-      },
-      {
-        "id": "opt1",
-        "text": "En desacuerdo"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s3-t31-r0",
-    "section": "3",
-    "stem": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación)",
-    "itemLabel": "No comer mientras ve televisión o usa el celular",
-    "text": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación) — No comer mientras ve televisión o usa el celular",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Ayuda"
-      },
-      {
-        "id": "opt1",
-        "text": "No ayuda"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s3-t31-r1",
-    "section": "3",
-    "stem": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación)",
-    "itemLabel": "Omitir la cena",
-    "text": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación) — Omitir la cena",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Ayuda"
-      },
-      {
-        "id": "opt1",
-        "text": "No ayuda"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s3-t31-r2",
-    "section": "3",
-    "stem": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación)",
-    "itemLabel": "Realizar al menos 30 minutos de actividad física diaria",
-    "text": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación) — Realizar al menos 30 minutos de actividad física diaria",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Ayuda"
-      },
-      {
-        "id": "opt1",
-        "text": "No ayuda"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s3-t31-r3",
-    "section": "3",
-    "stem": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación)",
-    "itemLabel": "Limitar el consumo de bebidas azucaradas",
-    "text": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación) — Limitar el consumo de bebidas azucaradas",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Ayuda"
-      },
-      {
-        "id": "opt1",
-        "text": "No ayuda"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  },
-  {
-    "id": "gnkq-s3-t31-r4",
-    "section": "3",
-    "stem": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación)",
-    "itemLabel": "Sustituir el agua por jugos naturales",
-    "text": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación) — Sustituir el agua por jugos naturales",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Ayuda"
-      },
-      {
-        "id": "opt1",
-        "text": "No ayuda"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s3-t31-r5",
-    "section": "3",
-    "stem": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación)",
-    "itemLabel": "Tomar suplementos",
-    "text": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación) — Tomar suplementos",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Ayuda"
-      },
-      {
-        "id": "opt1",
-        "text": "No ayuda"
-      },
-      {
-        "id": "opt2",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s3-imc-20",
-    "section": "3",
-    "stem": "Si alguien tiene un IMC de 20 kg/m² ¿Cuál sería su estado nutricional? (Marque una)",
-    "text": "Si alguien tiene un IMC de 20 kg/m² ¿Cuál sería su estado nutricional? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Desnutrición"
-      },
-      {
-        "id": "opt1",
-        "text": "Peso normal"
-      },
-      {
-        "id": "opt2",
-        "text": "Sobrepeso"
-      },
-      {
-        "id": "opt3",
-        "text": "Obesidad"
-      },
-      {
-        "id": "opt4",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt1"
-  },
-  {
-    "id": "gnkq-s3-imc-30",
-    "section": "3",
-    "stem": "Si alguien tiene un IMC de 30 kg/m² ¿Cuál sería su estado nutricional? (Marque una)",
-    "text": "Si alguien tiene un IMC de 30 kg/m² ¿Cuál sería su estado nutricional? (Marque una)",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Desnutrición"
-      },
-      {
-        "id": "opt1",
-        "text": "Peso normal"
-      },
-      {
-        "id": "opt2",
-        "text": "Sobrepeso"
-      },
-      {
-        "id": "opt3",
-        "text": "Obesidad"
-      },
-      {
-        "id": "opt4",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt3"
-  },
-  {
-    "id": "gnkq-s3-forma-corporal",
-    "section": "3",
-    "stem": "¿Cuál de las siguientes formas corporales incrementa el riesgo de enfermedad cardiovascular? (Marque una)",
-    "text": "¿Cuál de las siguientes formas corporales incrementa el riesgo de enfermedad cardiovascular? (Marque una)",
-    "note": "En el DOCX la tabla de esta pregunta no contiene el texto de las opciones. Revisar el documento original y actualizar este JSON si hace falta.",
-    "options": [
-      {
-        "id": "opt0",
-        "text": "Mayor grasa abdominal o distribución central (androide)"
-      },
-      {
-        "id": "opt1",
-        "text": "Mayor acumulación periférica (p. ej., caderas y muslos)"
-      },
-      {
-        "id": "opt2",
-        "text": "Ambas presentan el mismo riesgo cardiovascular"
-      },
-      {
-        "id": "opt3",
-        "text": "No estoy seguro/a"
-      }
-    ],
-    "correctOptionId": "opt0"
-  }
-]
+{
+  "sections": [
+    {
+      "id": "1",
+      "title": "¿Qué consejos cree usted que están dando los expertos?"
+    },
+    {
+      "id": "2",
+      "title": "Identificación de grupos de alimentos y sus nutrientes"
+    },
+    {
+      "id": "3",
+      "title": "Alimentación, enfermedades y control del peso"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gnkq-s1-t0-r0",
+      "section": "1",
+      "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
+      "itemLabel": "Frutas",
+      "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Frutas",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Más"
+        },
+        {
+          "id": "opt1",
+          "text": "Igual"
+        },
+        {
+          "id": "opt2",
+          "text": "Menos"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s1-t0-r1",
+      "section": "1",
+      "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
+      "itemLabel": "Alimentos y bebidas con azúcar agregada",
+      "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Alimentos y bebidas con azúcar agregada",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Más"
+        },
+        {
+          "id": "opt1",
+          "text": "Igual"
+        },
+        {
+          "id": "opt2",
+          "text": "Menos"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt2"
+    },
+    {
+      "id": "gnkq-s1-t0-r2",
+      "section": "1",
+      "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
+      "itemLabel": "Verduras",
+      "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Verduras",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Más"
+        },
+        {
+          "id": "opt1",
+          "text": "Igual"
+        },
+        {
+          "id": "opt2",
+          "text": "Menos"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s1-t0-r3",
+      "section": "1",
+      "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
+      "itemLabel": "Alimentos grasos",
+      "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Alimentos grasos",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Más"
+        },
+        {
+          "id": "opt1",
+          "text": "Igual"
+        },
+        {
+          "id": "opt2",
+          "text": "Menos"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt2"
+    },
+    {
+      "id": "gnkq-s1-t0-r4",
+      "section": "1",
+      "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
+      "itemLabel": "Carnes rojas procesadas",
+      "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Carnes rojas procesadas",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Más"
+        },
+        {
+          "id": "opt1",
+          "text": "Igual"
+        },
+        {
+          "id": "opt2",
+          "text": "Menos"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt2"
+    },
+    {
+      "id": "gnkq-s1-t0-r5",
+      "section": "1",
+      "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
+      "itemLabel": "Cereales integrales",
+      "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Cereales integrales",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Más"
+        },
+        {
+          "id": "opt1",
+          "text": "Igual"
+        },
+        {
+          "id": "opt2",
+          "text": "Menos"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s1-t0-r6",
+      "section": "1",
+      "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
+      "itemLabel": "Alimentos salados",
+      "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Alimentos salados",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Más"
+        },
+        {
+          "id": "opt1",
+          "text": "Igual"
+        },
+        {
+          "id": "opt2",
+          "text": "Menos"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt2"
+    },
+    {
+      "id": "gnkq-s1-t0-r7",
+      "section": "1",
+      "stem": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento).",
+      "itemLabel": "Agua",
+      "text": "¿Recomiendan las GAPA que la gente consuma más, la misma cantidad o menos de los siguientes alimentos? (Marque una casilla por alimento). — Agua",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Más"
+        },
+        {
+          "id": "opt1",
+          "text": "Igual"
+        },
+        {
+          "id": "opt2",
+          "text": "Menos"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s1-porciones-fruta-verdura",
+      "section": "1",
+      "stem": "¿Cuántas porciones de frutas y verduras por día aconsejan consumir las GAPA? (Marque una).",
+      "text": "¿Cuántas porciones de frutas y verduras por día aconsejan consumir las GAPA? (Marque una).",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "2"
+        },
+        {
+          "id": "opt1",
+          "text": "3"
+        },
+        {
+          "id": "opt2",
+          "text": "4"
+        },
+        {
+          "id": "opt3",
+          "text": "5 o más"
+        },
+        {
+          "id": "opt4",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt3"
+    },
+    {
+      "id": "gnkq-s1-t2-r0",
+      "section": "1",
+      "stem": "¿Cuáles de estos tipos de grasas recomiendan las GAPA que se consuman menos? (Marque una casilla por cada opción)",
+      "itemLabel": "Grasas insaturadas",
+      "text": "¿Cuáles de estos tipos de grasas recomiendan las GAPA que se consuman menos? (Marque una casilla por cada opción) — Grasas insaturadas",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "No comer menos"
+        },
+        {
+          "id": "opt1",
+          "text": "Comer menos"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s1-t2-r1",
+      "section": "1",
+      "stem": "¿Cuáles de estos tipos de grasas recomiendan las GAPA que se consuman menos? (Marque una casilla por cada opción)",
+      "itemLabel": "Grasas saturadas",
+      "text": "¿Cuáles de estos tipos de grasas recomiendan las GAPA que se consuman menos? (Marque una casilla por cada opción) — Grasas saturadas",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "No comer menos"
+        },
+        {
+          "id": "opt1",
+          "text": "Comer menos"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s1-t2-r2",
+      "section": "1",
+      "stem": "¿Cuáles de estos tipos de grasas recomiendan las GAPA que se consuman menos? (Marque una casilla por cada opción)",
+      "itemLabel": "Grasas trans",
+      "text": "¿Cuáles de estos tipos de grasas recomiendan las GAPA que se consuman menos? (Marque una casilla por cada opción) — Grasas trans",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "No comer menos"
+        },
+        {
+          "id": "opt1",
+          "text": "Comer menos"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s1-lacteos",
+      "section": "1",
+      "stem": "¿Qué recomiendan las GAPA con respecto al consumo de lácteos? (Marque una)",
+      "text": "¿Qué recomiendan las GAPA con respecto al consumo de lácteos? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Incluir 3 porciones al día de leche, yogurt o queso (preferentemente descremados)"
+        },
+        {
+          "id": "opt1",
+          "text": "Preferir los lácteos enteros antes que los descremados"
+        },
+        {
+          "id": "opt2",
+          "text": "Preferir los quesos duros por su mayor aporte de calcio"
+        },
+        {
+          "id": "opt3",
+          "text": "Utilizarlos únicamente durante la infancia"
+        },
+        {
+          "id": "opt4",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s1-pescado",
+      "section": "1",
+      "stem": "¿Cuántas veces por semana se recomienda consumir pescados grasos (por ejemplo: atún, caballa, etc.) según las GAPA? (Marque una)",
+      "text": "¿Cuántas veces por semana se recomienda consumir pescados grasos (por ejemplo: atún, caballa, etc.) según las GAPA? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "2 o más veces por semana"
+        },
+        {
+          "id": "opt1",
+          "text": "3 – 4 veces por semana"
+        },
+        {
+          "id": "opt2",
+          "text": "Todos los días"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s1-alcohol",
+      "section": "1",
+      "stem": "¿Cuál es la cantidad máxima recomendada para el consumo de bebidas alcohólicas por día según las GAPA? (Marque una)",
+      "text": "¿Cuál es la cantidad máxima recomendada para el consumo de bebidas alcohólicas por día según las GAPA? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "1 medida tanto para hombres como para mujeres"
+        },
+        {
+          "id": "opt1",
+          "text": "2 medidas tanto para hombres como para mujeres"
+        },
+        {
+          "id": "opt2",
+          "text": "2 medidas para hombres y 1 medida para mujeres"
+        },
+        {
+          "id": "opt3",
+          "text": "3 medidas para hombres y 2 medidas para mujeres"
+        },
+        {
+          "id": "opt4",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt2"
+    },
+    {
+      "id": "gnkq-s1-patrones",
+      "section": "1",
+      "stem": "¿Qué recomiendan las GAPA en cuanto a patrones alimentarios? (Marque una)",
+      "text": "¿Qué recomiendan las GAPA en cuanto a patrones alimentarios? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Realizar ayuno intermitente en patrón 16/8"
+        },
+        {
+          "id": "opt1",
+          "text": "Realizar 4 comidas con una selección de alimentos moderada y armónica"
+        },
+        {
+          "id": "opt2",
+          "text": "Realizar la cantidad de comidas y selección de alimentos que desee, siempre que procure cumplir con su cuota calórica"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s1-jugo-fruta",
+      "section": "1",
+      "stem": "Según las GAPA es válido reemplazar las porciones recomendadas de fruta por el jugo de estas mismas. (Marque una)",
+      "text": "Según las GAPA es válido reemplazar las porciones recomendadas de fruta por el jugo de estas mismas. (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "De acuerdo"
+        },
+        {
+          "id": "opt1",
+          "text": "En desacuerdo"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s1-grafica-legumbres",
+      "section": "1",
+      "stem": "Según la Gráfica de la Alimentación Diaria de las GAPA, ¿Qué proporción o cantidad diaria se recomienda consumir del grupo de legumbres, cereales, papa, pan y pastas? (Marque una)",
+      "text": "Según la Gráfica de la Alimentación Diaria de las GAPA, ¿Qué proporción o cantidad diaria se recomienda consumir del grupo de legumbres, cereales, papa, pan y pastas? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "4 porciones al día"
+        },
+        {
+          "id": "opt1",
+          "text": "4 porciones a la semana"
+        },
+        {
+          "id": "opt2",
+          "text": "Una cantidad mínima y opcional"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t9-r0",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento)",
+      "itemLabel": "Gaseosas dietéticas",
+      "text": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento) — Gaseosas dietéticas",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto en azúcar agregado"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo en azúcar agregado"
+        },
+        {
+          "id": "opt2",
+          "text": "Sin azúcar agregado"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt2"
+    },
+    {
+      "id": "gnkq-s2-t9-r1",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento)",
+      "itemLabel": "Gaseosas comunes",
+      "text": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento) — Gaseosas comunes",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto en azúcar agregado"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo en azúcar agregado"
+        },
+        {
+          "id": "opt2",
+          "text": "Sin azúcar agregado"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t9-r2",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento)",
+      "itemLabel": "Ketchup tradicional",
+      "text": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento) — Ketchup tradicional",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto en azúcar agregado"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo en azúcar agregado"
+        },
+        {
+          "id": "opt2",
+          "text": "Sin azúcar agregado"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t9-r3",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento)",
+      "itemLabel": "Leche entera",
+      "text": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento) — Leche entera",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto en azúcar agregado"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo en azúcar agregado"
+        },
+        {
+          "id": "opt2",
+          "text": "Sin azúcar agregado"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt2"
+    },
+    {
+      "id": "gnkq-s2-t9-r4",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento)",
+      "itemLabel": "Leche chocolatada",
+      "text": "¿Cree usted que estos alimentos y bebidas suelen tener alto, bajo o nulo contenido de azúcar agregado? (Marque una casilla por alimento) — Leche chocolatada",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto en azúcar agregado"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo en azúcar agregado"
+        },
+        {
+          "id": "opt2",
+          "text": "Sin azúcar agregado"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t10-r0",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento)",
+      "itemLabel": "Copos de cereal",
+      "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento) — Copos de cereal",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto en sodio"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo en sodio"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t10-r1",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento)",
+      "itemLabel": "Vegetales congelados",
+      "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento) — Vegetales congelados",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto en sodio"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo en sodio"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s2-t10-r2",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento)",
+      "itemLabel": "Pan francés",
+      "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento) — Pan francés",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto en sodio"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo en sodio"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t10-r3",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento)",
+      "itemLabel": "Porotos enlatados",
+      "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento) — Porotos enlatados",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto en sodio"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo en sodio"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t10-r4",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento)",
+      "itemLabel": "Carne roja",
+      "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento) — Carne roja",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto en sodio"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo en sodio"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s2-t10-r5",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento)",
+      "itemLabel": "Sopa en sobre",
+      "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en sodio? (Marque una casilla por alimento) — Sopa en sobre",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto en sodio"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo en sodio"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t11-r0",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento)",
+      "itemLabel": "Legumbres",
+      "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento) — Legumbres",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto contenido de fibra"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo contenido de fibra"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t11-r1",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento)",
+      "itemLabel": "Manzana",
+      "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento) — Manzana",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto contenido de fibra"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo contenido de fibra"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t11-r2",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento)",
+      "itemLabel": "Arroz blanco",
+      "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento) — Arroz blanco",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto contenido de fibra"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo contenido de fibra"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s2-t11-r3",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento)",
+      "itemLabel": "Carne de vaca",
+      "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento) — Carne de vaca",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto contenido de fibra"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo contenido de fibra"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s2-t11-r4",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento)",
+      "itemLabel": "Papas con cáscara",
+      "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento) — Papas con cáscara",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto contenido de fibra"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo contenido de fibra"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t11-r5",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento)",
+      "itemLabel": "Pan francés",
+      "text": "¿Cree usted que estos alimentos son típicamente altos o bajos en fibra? (Marque una casilla por alimento) — Pan francés",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Alto contenido de fibra"
+        },
+        {
+          "id": "opt1",
+          "text": "Bajo contenido de fibra"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s2-t12-r0",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento)",
+      "itemLabel": "Carnes de origen animal (vaca, pollo, pescado, etc.)",
+      "text": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento) — Carnes de origen animal (vaca, pollo, pescado, etc.)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Buena fuente de proteína"
+        },
+        {
+          "id": "opt1",
+          "text": "No es buena fuente de proteína"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t12-r1",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento)",
+      "itemLabel": "Quesos",
+      "text": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento) — Quesos",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Buena fuente de proteína"
+        },
+        {
+          "id": "opt1",
+          "text": "No es buena fuente de proteína"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t12-r2",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento)",
+      "itemLabel": "Frutas",
+      "text": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento) — Frutas",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Buena fuente de proteína"
+        },
+        {
+          "id": "opt1",
+          "text": "No es buena fuente de proteína"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s2-t12-r3",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento)",
+      "itemLabel": "Legumbres",
+      "text": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento) — Legumbres",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Buena fuente de proteína"
+        },
+        {
+          "id": "opt1",
+          "text": "No es buena fuente de proteína"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t12-r4",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento)",
+      "itemLabel": "Manteca",
+      "text": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento) — Manteca",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Buena fuente de proteína"
+        },
+        {
+          "id": "opt1",
+          "text": "No es buena fuente de proteína"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s2-t12-r5",
+      "section": "2",
+      "stem": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento)",
+      "itemLabel": "Hortalizas",
+      "text": "¿Cree usted que estos alimentos son una buena fuente de proteína? (Marque una casilla por alimento) — Hortalizas",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Buena fuente de proteína"
+        },
+        {
+          "id": "opt1",
+          "text": "No es buena fuente de proteína"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s2-t13-r0",
+      "section": "2",
+      "stem": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento)",
+      "itemLabel": "Quesos",
+      "text": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento) — Quesos",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Contiene almidón"
+        },
+        {
+          "id": "opt1",
+          "text": "No contiene almidón"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s2-t13-r1",
+      "section": "2",
+      "stem": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento)",
+      "itemLabel": "Pastas",
+      "text": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento) — Pastas",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Contiene almidón"
+        },
+        {
+          "id": "opt1",
+          "text": "No contiene almidón"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t13-r2",
+      "section": "2",
+      "stem": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento)",
+      "itemLabel": "Papas",
+      "text": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento) — Papas",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Contiene almidón"
+        },
+        {
+          "id": "opt1",
+          "text": "No contiene almidón"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t13-r3",
+      "section": "2",
+      "stem": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento)",
+      "itemLabel": "Nueces",
+      "text": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento) — Nueces",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Contiene almidón"
+        },
+        {
+          "id": "opt1",
+          "text": "No contiene almidón"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s2-t13-r4",
+      "section": "2",
+      "stem": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento)",
+      "itemLabel": "Bananas",
+      "text": "¿Cuáles de los siguientes alimentos contienen almidón? (Marque una casilla por alimento) — Bananas",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Contiene almidón"
+        },
+        {
+          "id": "opt1",
+          "text": "No contiene almidón"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s2-t14-r0",
+      "section": "2",
+      "stem": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento)",
+      "itemLabel": "Aceite de oliva",
+      "text": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento) — Aceite de oliva",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Grasas poli-insaturadas"
+        },
+        {
+          "id": "opt1",
+          "text": "Grasas mono-insaturadas"
+        },
+        {
+          "id": "opt2",
+          "text": "Grasas saturadas"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s2-t14-r1",
+      "section": "2",
+      "stem": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento)",
+      "itemLabel": "Manteca",
+      "text": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento) — Manteca",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Grasas poli-insaturadas"
+        },
+        {
+          "id": "opt1",
+          "text": "Grasas mono-insaturadas"
+        },
+        {
+          "id": "opt2",
+          "text": "Grasas saturadas"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro"
+        }
+      ],
+      "correctOptionId": "opt2"
+    },
+    {
+      "id": "gnkq-s2-t14-r2",
+      "section": "2",
+      "stem": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento)",
+      "itemLabel": "Aceite de girasol",
+      "text": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento) — Aceite de girasol",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Grasas poli-insaturadas"
+        },
+        {
+          "id": "opt1",
+          "text": "Grasas mono-insaturadas"
+        },
+        {
+          "id": "opt2",
+          "text": "Grasas saturadas"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-t14-r3",
+      "section": "2",
+      "stem": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento)",
+      "itemLabel": "Palta",
+      "text": "¿Cuál es el tipo de grasa predominante presente en cada uno de estos alimentos? (Marque una casilla por alimento) — Palta",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Grasas poli-insaturadas"
+        },
+        {
+          "id": "opt1",
+          "text": "Grasas mono-insaturadas"
+        },
+        {
+          "id": "opt2",
+          "text": "Grasas saturadas"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s2-grasas-trans",
+      "section": "2",
+      "stem": "¿Cuál de estos alimentos posee grasas trans? (Marque una)",
+      "text": "¿Cuál de estos alimentos posee grasas trans? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Margarina"
+        },
+        {
+          "id": "opt1",
+          "text": "Manteca"
+        },
+        {
+          "id": "opt2",
+          "text": "Aceite de girasol"
+        },
+        {
+          "id": "opt3",
+          "text": "Huevos"
+        },
+        {
+          "id": "opt4",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-calcio-leche",
+      "section": "2",
+      "stem": "La cantidad de calcio en un vaso de leche entera comparado con un vaso de leche descremada es (marque una):",
+      "text": "La cantidad de calcio en un vaso de leche entera comparado con un vaso de leche descremada es (marque una):",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Aproximadamente el mismo"
+        },
+        {
+          "id": "opt1",
+          "text": "Mucho mayor"
+        },
+        {
+          "id": "opt2",
+          "text": "Mucho menor"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s2-calorias-nutriente",
+      "section": "2",
+      "stem": "¿Cuál de los siguientes nutrientes tiene más calorías por el mismo peso de alimento? (Marque una)",
+      "text": "¿Cuál de los siguientes nutrientes tiene más calorías por el mismo peso de alimento? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Azúcares"
+        },
+        {
+          "id": "opt1",
+          "text": "Proteínas"
+        },
+        {
+          "id": "opt2",
+          "text": "Grasas"
+        },
+        {
+          "id": "opt3",
+          "text": "Fibra"
+        },
+        {
+          "id": "opt4",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt2"
+    },
+    {
+      "id": "gnkq-s2-ultraprocesados",
+      "section": "2",
+      "stem": "En comparación con los alimentos mínimamente procesados, los alimentos ultraprocesados son (marque una):",
+      "text": "En comparación con los alimentos mínimamente procesados, los alimentos ultraprocesados son (marque una):",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Más altos en fibra"
+        },
+        {
+          "id": "opt1",
+          "text": "Más altos en calorías"
+        },
+        {
+          "id": "opt2",
+          "text": "Más bajos en sodio"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s3-fibra-enfermedad",
+      "section": "3",
+      "stem": "¿Cuál de estas enfermedades está relacionada con una baja ingesta de fibra? (Marque una)",
+      "text": "¿Cuál de estas enfermedades está relacionada con una baja ingesta de fibra? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Anemia"
+        },
+        {
+          "id": "opt1",
+          "text": "Caries dentales"
+        },
+        {
+          "id": "opt2",
+          "text": "Trastornos intestinales"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt2"
+    },
+    {
+      "id": "gnkq-s3-azucar-enfermedad",
+      "section": "3",
+      "stem": "¿Cuál de estas enfermedades está relacionada con cuánto azúcar consume la gente? (Marque una)",
+      "text": "¿Cuál de estas enfermedades está relacionada con cuánto azúcar consume la gente? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Anemia"
+        },
+        {
+          "id": "opt1",
+          "text": "Caries dentales"
+        },
+        {
+          "id": "opt2",
+          "text": "Hipertensión Arterial"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s3-sodio-enfermedad",
+      "section": "3",
+      "stem": "¿Cuál de estas enfermedades está relacionada con cuánto sodio o sal consume la gente? (Marque una)",
+      "text": "¿Cuál de estas enfermedades está relacionada con cuánto sodio o sal consume la gente? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Diabetes 2"
+        },
+        {
+          "id": "opt1",
+          "text": "Hipertensión Arterial"
+        },
+        {
+          "id": "opt2",
+          "text": "Hipotiroidismo"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s3-gapa-cancer",
+      "section": "3",
+      "stem": "¿Qué recomiendan las GAPA para reducir el riesgo de cáncer? (Marque una)",
+      "text": "¿Qué recomiendan las GAPA para reducir el riesgo de cáncer? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Beber alcohol regularmente"
+        },
+        {
+          "id": "opt1",
+          "text": "Comer menos carne roja"
+        },
+        {
+          "id": "opt2",
+          "text": "Evitar aditivos en los alimentos"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s3-gapa-cardiovascular",
+      "section": "3",
+      "stem": "¿Qué recomiendan las GAPA para prevenir enfermedades cardiovasculares? (Marque una)",
+      "text": "¿Qué recomiendan las GAPA para prevenir enfermedades cardiovasculares? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Comer menos huevos"
+        },
+        {
+          "id": "opt1",
+          "text": "Evitar las grasas trans"
+        },
+        {
+          "id": "opt2",
+          "text": "Tomar suplementos"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s3-gapa-diabetes",
+      "section": "3",
+      "stem": "¿Qué recomiendan las GAPA para prevenir la Diabetes 2? (Marque una)",
+      "text": "¿Qué recomiendan las GAPA para prevenir la Diabetes 2? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Beber más jugo de frutas"
+        },
+        {
+          "id": "opt1",
+          "text": "Comer más carne roja"
+        },
+        {
+          "id": "opt2",
+          "text": "Comer menos alimentos ultra-procesados"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt2"
+    },
+    {
+      "id": "gnkq-s3-colesterol",
+      "section": "3",
+      "stem": "¿Cuál de estos alimentos es más probable que eleve el colesterol sanguíneo? (Marque una)",
+      "text": "¿Cuál de estos alimentos es más probable que eleve el colesterol sanguíneo? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Aceites vegetales"
+        },
+        {
+          "id": "opt1",
+          "text": "Grasa animal"
+        },
+        {
+          "id": "opt2",
+          "text": "Huevos"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s3-glucemia",
+      "section": "3",
+      "stem": "¿Cuál de estos alimentos tiende a elevar más rápidamente la glucemia después de comer? (Marque una)",
+      "text": "¿Cuál de estos alimentos tiende a elevar más rápidamente la glucemia después de comer? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Cereales integrales"
+        },
+        {
+          "id": "opt1",
+          "text": "Frutas"
+        },
+        {
+          "id": "opt2",
+          "text": "Pan blanco"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt2"
+    },
+    {
+      "id": "gnkq-s3-peso-sin-grasas",
+      "section": "3",
+      "stem": "Para mantener un peso saludable la gente debería eliminar completamente las grasas de su dieta. (Marque una)",
+      "text": "Para mantener un peso saludable la gente debería eliminar completamente las grasas de su dieta. (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "De acuerdo"
+        },
+        {
+          "id": "opt1",
+          "text": "En desacuerdo"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s3-peso-proteinas",
+      "section": "3",
+      "stem": "Para mantener un peso saludable la gente debería comer una dieta alta en proteínas. (Marque una)",
+      "text": "Para mantener un peso saludable la gente debería comer una dieta alta en proteínas. (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "De acuerdo"
+        },
+        {
+          "id": "opt1",
+          "text": "En desacuerdo"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s3-pan-peso",
+      "section": "3",
+      "stem": "Comer pan siempre causa aumento de peso. (Marque una)",
+      "text": "Comer pan siempre causa aumento de peso. (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "De acuerdo"
+        },
+        {
+          "id": "opt1",
+          "text": "En desacuerdo"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s3-fibra-peso",
+      "section": "3",
+      "stem": "La fibra puede disminuir las probabilidades de aumentar de peso. (Marque una)",
+      "text": "La fibra puede disminuir las probabilidades de aumentar de peso. (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "De acuerdo"
+        },
+        {
+          "id": "opt1",
+          "text": "En desacuerdo"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s3-t31-r0",
+      "section": "3",
+      "stem": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación)",
+      "itemLabel": "No comer mientras ve televisión o usa el celular",
+      "text": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación) — No comer mientras ve televisión o usa el celular",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Ayuda"
+        },
+        {
+          "id": "opt1",
+          "text": "No ayuda"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s3-t31-r1",
+      "section": "3",
+      "stem": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación)",
+      "itemLabel": "Omitir la cena",
+      "text": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación) — Omitir la cena",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Ayuda"
+        },
+        {
+          "id": "opt1",
+          "text": "No ayuda"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s3-t31-r2",
+      "section": "3",
+      "stem": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación)",
+      "itemLabel": "Realizar al menos 30 minutos de actividad física diaria",
+      "text": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación) — Realizar al menos 30 minutos de actividad física diaria",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Ayuda"
+        },
+        {
+          "id": "opt1",
+          "text": "No ayuda"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s3-t31-r3",
+      "section": "3",
+      "stem": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación)",
+      "itemLabel": "Limitar el consumo de bebidas azucaradas",
+      "text": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación) — Limitar el consumo de bebidas azucaradas",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Ayuda"
+        },
+        {
+          "id": "opt1",
+          "text": "No ayuda"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    },
+    {
+      "id": "gnkq-s3-t31-r4",
+      "section": "3",
+      "stem": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación)",
+      "itemLabel": "Sustituir el agua por jugos naturales",
+      "text": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación) — Sustituir el agua por jugos naturales",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Ayuda"
+        },
+        {
+          "id": "opt1",
+          "text": "No ayuda"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s3-t31-r5",
+      "section": "3",
+      "stem": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación)",
+      "itemLabel": "Tomar suplementos",
+      "text": "¿Cuáles de las siguientes conductas ayudan a mantener un peso saludable? (Marque una por cada afirmación) — Tomar suplementos",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Ayuda"
+        },
+        {
+          "id": "opt1",
+          "text": "No ayuda"
+        },
+        {
+          "id": "opt2",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s3-imc-20",
+      "section": "3",
+      "stem": "Si alguien tiene un IMC de 20 kg/m² ¿Cuál sería su estado nutricional? (Marque una)",
+      "text": "Si alguien tiene un IMC de 20 kg/m² ¿Cuál sería su estado nutricional? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Desnutrición"
+        },
+        {
+          "id": "opt1",
+          "text": "Peso normal"
+        },
+        {
+          "id": "opt2",
+          "text": "Sobrepeso"
+        },
+        {
+          "id": "opt3",
+          "text": "Obesidad"
+        },
+        {
+          "id": "opt4",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt1"
+    },
+    {
+      "id": "gnkq-s3-imc-30",
+      "section": "3",
+      "stem": "Si alguien tiene un IMC de 30 kg/m² ¿Cuál sería su estado nutricional? (Marque una)",
+      "text": "Si alguien tiene un IMC de 30 kg/m² ¿Cuál sería su estado nutricional? (Marque una)",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Desnutrición"
+        },
+        {
+          "id": "opt1",
+          "text": "Peso normal"
+        },
+        {
+          "id": "opt2",
+          "text": "Sobrepeso"
+        },
+        {
+          "id": "opt3",
+          "text": "Obesidad"
+        },
+        {
+          "id": "opt4",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt3"
+    },
+    {
+      "id": "gnkq-s3-forma-corporal",
+      "section": "3",
+      "stem": "¿Cuál de las siguientes formas corporales incrementa el riesgo de enfermedad cardiovascular? (Marque una)",
+      "text": "¿Cuál de las siguientes formas corporales incrementa el riesgo de enfermedad cardiovascular? (Marque una)",
+      "note": "En el DOCX la tabla de esta pregunta no contiene el texto de las opciones. Revisar el documento original y actualizar este JSON si hace falta.",
+      "options": [
+        {
+          "id": "opt0",
+          "text": "Mayor grasa abdominal o distribución central (androide)"
+        },
+        {
+          "id": "opt1",
+          "text": "Mayor acumulación periférica (p. ej., caderas y muslos)"
+        },
+        {
+          "id": "opt2",
+          "text": "Ambas presentan el mismo riesgo cardiovascular"
+        },
+        {
+          "id": "opt3",
+          "text": "No estoy seguro/a"
+        }
+      ],
+      "correctOptionId": "opt0"
+    }
+  ]
+}
